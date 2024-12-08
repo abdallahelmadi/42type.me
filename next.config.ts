@@ -5,7 +5,12 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'avatar.vercel.sh',
+        hostname: 'cdn.intra.42.fr',
+        pathname: '/**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
         pathname: '/**'
       }
     ]

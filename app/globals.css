@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root
+{
+  --bg-color: #323437;
+  --global-color: #14e125;
+  --text-color: #646669;
+  --text-hover-color: #d1d0c5;
+  --error-color: #ca4754;
+  --error-extra-color : #7e2a33;
+}
